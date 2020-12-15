@@ -1,0 +1,43 @@
+html,
+body,
+main {
+  height: 100%;
+}
+
+main {
+  display: flex;
+}
+
+#game {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+
+#board {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  float: left;
+  font-size: 70px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.new-game-btn {
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #212529;
+  border: 2px solid#212529;
+  font-weight: bold;
+  cursor: pointer;
+}

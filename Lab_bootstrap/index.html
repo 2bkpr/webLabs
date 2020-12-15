@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="img/bootstrap.svg#favicon" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/jquery-3.5.1.min.js" defer></script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">
+            <svg>
+                <use x="0" y="0" xlink:href="/img/bootstrap.svg#icon" />
+            </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-pressed="true"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Документация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Статьи</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#report">Обратная связь</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid mt-5 product-field">
+        <div class="row">
+            <div class="col mt-5 d-flex justify-content-center">
+                <h1 class="text-center">Bootstrap</h1>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5 mb-md-3">
+            <div class="col-md-7">
+                <p class="px-3 text-justify">
+                    Быстрое создание и настройка адаптивных сайтов с помощью Bootstrap,
+                    - самого популярного в мире набора инструментов с открытым исходным
+                    кодом, включающего переменные Sass и миксины, адаптивную систему
+                    сеток и множество готовых компонентов и плагинов JavaScript.
+                </p>
+            </div>
+            <div class="col-md-5 d-flex justify-content-center">
+                <svg>
+                    <use x="0" y="0" xlink:href="/img/bootstrap.svg#icon" />
+                </svg>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col d-flex elips justify-content-center flex-row align-items-center">
+                <div class="mr-3"></div>
+                <div class="mr-3"></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-5 about">
+        <div class="row">
+            <div class="col mb-1 pl-md-5 text-center text-md-left">
+                <h2>Что входит в Bootstrap...</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mb-5 pl-5">
+                <ul class="features">
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>UI</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col d-flex elips justify-content-center flex-row align-items-center">
+                <div class="mr-3"></div>
+                <div class="mr-3"></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-5 report-field">
+        <div class="row">
+            <div class="col mb-5 pl-md-5 text-center text-md-left">
+                <h2 id="report">Обратная связь</h2>
+            </div>
+        </div>
+        <form class="px-md-5 px-0" method="post" action="https://httpbin.org/post">
+            <div class="form-group row justify-content-center pr-md-5">
+                <label for="name" class="col-4 col-md-3 col-form-label text-md-right px-3">Ваше имя</label>
+                <div class="col-8 col-md-5 ml-md-1">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="YourName" />
+                </div>
+            </div>
+            <div class="form-group row justify-content-center pr-md-5">
+                <label for="inputEmail3" class="col-4 col-md-3 col-form-label text-md-right px-3">Email</label>
+                <div class="col-8 col-md-5 ml-md-1">
+                    <input type="email" class="form-control" id="inputEmail3" name="mail"
+                        placeholder="Your@gmail.com" />
+                </div>
+            </div>
+            <div class="form-group row justify-content-center pr-md-5">
+                <label for="message" class="col-4 col-md-3 col-form-label text-md-right px-3">Ваше сообщение</label>
+                <div class="col-8 col-md-5 ml-md-1">
+                    <textarea class="form-control" id="message" name="report_message" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group row justify-content-center">
+                <div class="col d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

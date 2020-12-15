@@ -1,0 +1,37 @@
+body,
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin: 10px 0 0 5px;
+}
+
+input,
+label {
+  margin-top: 10px;
+}
+
+body {
+  background: url("/css/images/xC60IJ9dF2A.jpg") round;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: auto;
+}
+
+form {
+  margin-bottom: auto;
+  border: black 2px solid;
+  padding: 50px;
+}
